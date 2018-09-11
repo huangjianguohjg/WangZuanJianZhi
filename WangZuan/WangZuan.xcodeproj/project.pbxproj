@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		67D32364B47B8D9544605B42 /* libPods-WangZuan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B093258499514ECAEF21486 /* libPods-WangZuan.a */; };
+		D7700B9A21479ED0004090F2 /* HJGDeliverController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700B9921479ED0004090F2 /* HJGDeliverController.m */; };
+		D7700B9D21479EDE004090F2 /* HJGAboutUSController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700B9C21479EDE004090F2 /* HJGAboutUSController.m */; };
+		D7700BA021479EF3004090F2 /* HJG_DeliverStatusController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700B9F21479EF3004090F2 /* HJG_DeliverStatusController.m */; };
 		D7B067972146701F000D4C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B067962146701F000D4C29 /* AppDelegate.m */; };
 		D7B0679A2146701F000D4C29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B067992146701F000D4C29 /* ViewController.m */; };
 		D7B0679D2146701F000D4C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B0679B2146701F000D4C29 /* Main.storyboard */; };
@@ -104,6 +107,16 @@
 		D7B068DA21468AE4000D4C29 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B068D721468AE4000D4C29 /* 3.png */; };
 		D7B068DD21468CCB000D4C29 /* HJG_SchoolTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B068DC21468CCB000D4C29 /* HJG_SchoolTableViewCell.m */; };
 		D7B068E021469492000D4C29 /* HJGSchoolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B068DF21469492000D4C29 /* HJGSchoolModel.m */; };
+		D7B068E3214770D4000D4C29 /* HJG_MineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B068E2214770D4000D4C29 /* HJG_MineTableViewCell.m */; };
+		D7B068E5214775CE000D4C29 /* dfgdfgfd.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B068E4214775CE000D4C29 /* dfgdfgfd.png */; };
+		D7B068EA2147774A000D4C29 /* 闪电.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B068E621477749000D4C29 /* 闪电.png */; };
+		D7B068EB2147774A000D4C29 /* 购物车.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B068E721477749000D4C29 /* 购物车.png */; };
+		D7B068EC2147774A000D4C29 /* 回形针.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B068E821477749000D4C29 /* 回形针.png */; };
+		D7B068ED2147774A000D4C29 /* 文章.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B068E921477749000D4C29 /* 文章.png */; };
+		D7B068F121478291000D4C29 /* HJG_LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B068F021478291000D4C29 /* HJG_LoginController.m */; };
+		D7B068F421478369000D4C29 /* 4324.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B068F221478369000D4C29 /* 4324.png */; };
+		D7B068F521478369000D4C29 /* 423423432.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B068F321478369000D4C29 /* 423423432.png */; };
+		D7B068F821478B0C000D4C29 /* HJG_RegsterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B068F721478B0C000D4C29 /* HJG_RegsterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +140,12 @@
 		3D0B2BB4C26153C765D8A4F7 /* Pods-WangZuan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangZuan.release.xcconfig"; path = "Pods/Target Support Files/Pods-WangZuan/Pods-WangZuan.release.xcconfig"; sourceTree = "<group>"; };
 		4B093258499514ECAEF21486 /* libPods-WangZuan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WangZuan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFC909F8F505A15F0B2BFCA /* Pods-WangZuan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WangZuan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WangZuan/Pods-WangZuan.debug.xcconfig"; sourceTree = "<group>"; };
+		D7700B9821479ED0004090F2 /* HJGDeliverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGDeliverController.h; sourceTree = "<group>"; };
+		D7700B9921479ED0004090F2 /* HJGDeliverController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGDeliverController.m; sourceTree = "<group>"; };
+		D7700B9B21479EDE004090F2 /* HJGAboutUSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGAboutUSController.h; sourceTree = "<group>"; };
+		D7700B9C21479EDE004090F2 /* HJGAboutUSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGAboutUSController.m; sourceTree = "<group>"; };
+		D7700B9E21479EF3004090F2 /* HJG_DeliverStatusController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJG_DeliverStatusController.h; sourceTree = "<group>"; };
+		D7700B9F21479EF3004090F2 /* HJG_DeliverStatusController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJG_DeliverStatusController.m; sourceTree = "<group>"; };
 		D7B067922146701F000D4C29 /* WangZuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangZuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B067952146701F000D4C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7B067962146701F000D4C29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -314,6 +333,19 @@
 		D7B068DC21468CCB000D4C29 /* HJG_SchoolTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJG_SchoolTableViewCell.m; sourceTree = "<group>"; };
 		D7B068DE21469492000D4C29 /* HJGSchoolModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGSchoolModel.h; sourceTree = "<group>"; };
 		D7B068DF21469492000D4C29 /* HJGSchoolModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGSchoolModel.m; sourceTree = "<group>"; };
+		D7B068E1214770D4000D4C29 /* HJG_MineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJG_MineTableViewCell.h; sourceTree = "<group>"; };
+		D7B068E2214770D4000D4C29 /* HJG_MineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJG_MineTableViewCell.m; sourceTree = "<group>"; };
+		D7B068E4214775CE000D4C29 /* dfgdfgfd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dfgdfgfd.png; sourceTree = "<group>"; };
+		D7B068E621477749000D4C29 /* 闪电.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "闪电.png"; sourceTree = "<group>"; };
+		D7B068E721477749000D4C29 /* 购物车.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车.png"; sourceTree = "<group>"; };
+		D7B068E821477749000D4C29 /* 回形针.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "回形针.png"; sourceTree = "<group>"; };
+		D7B068E921477749000D4C29 /* 文章.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文章.png"; sourceTree = "<group>"; };
+		D7B068EF21478291000D4C29 /* HJG_LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJG_LoginController.h; sourceTree = "<group>"; };
+		D7B068F021478291000D4C29 /* HJG_LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJG_LoginController.m; sourceTree = "<group>"; };
+		D7B068F221478369000D4C29 /* 4324.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4324.png; sourceTree = "<group>"; };
+		D7B068F321478369000D4C29 /* 423423432.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 423423432.png; sourceTree = "<group>"; };
+		D7B068F621478B0C000D4C29 /* HJG_RegsterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJG_RegsterController.h; sourceTree = "<group>"; };
+		D7B068F721478B0C000D4C29 /* HJG_RegsterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJG_RegsterController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,6 +416,14 @@
 		D7B067942146701F000D4C29 /* WangZuan */ = {
 			isa = PBXGroup;
 			children = (
+				D7B068F221478369000D4C29 /* 4324.png */,
+				D7B068F321478369000D4C29 /* 423423432.png */,
+				D7B068EE21478279000D4C29 /* login */,
+				D7B068E721477749000D4C29 /* 购物车.png */,
+				D7B068E821477749000D4C29 /* 回形针.png */,
+				D7B068E621477749000D4C29 /* 闪电.png */,
+				D7B068E921477749000D4C29 /* 文章.png */,
+				D7B068E4214775CE000D4C29 /* dfgdfgfd.png */,
 				D7B068D521468AE3000D4C29 /* 1.png */,
 				D7B068D621468AE3000D4C29 /* 2.png */,
 				D7B068D721468AE4000D4C29 /* 3.png */,
@@ -632,6 +672,12 @@
 			children = (
 				D7B068C8214671B0000D4C29 /* HJG_MineController.h */,
 				D7B068C9214671B0000D4C29 /* HJG_MineController.m */,
+				D7700B9821479ED0004090F2 /* HJGDeliverController.h */,
+				D7700B9921479ED0004090F2 /* HJGDeliverController.m */,
+				D7700B9B21479EDE004090F2 /* HJGAboutUSController.h */,
+				D7700B9C21479EDE004090F2 /* HJGAboutUSController.m */,
+				D7700B9E21479EF3004090F2 /* HJG_DeliverStatusController.h */,
+				D7700B9F21479EF3004090F2 /* HJG_DeliverStatusController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -646,6 +692,8 @@
 		D7B068582146711F000D4C29 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D7B068E1214770D4000D4C29 /* HJG_MineTableViewCell.h */,
+				D7B068E2214770D4000D4C29 /* HJG_MineTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -770,6 +818,17 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		D7B068EE21478279000D4C29 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				D7B068EF21478291000D4C29 /* HJG_LoginController.h */,
+				D7B068F021478291000D4C29 /* HJG_LoginController.m */,
+				D7B068F621478B0C000D4C29 /* HJG_RegsterController.h */,
+				D7B068F721478B0C000D4C29 /* HJG_RegsterController.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -886,13 +945,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B068ED2147774A000D4C29 /* 文章.png in Resources */,
+				D7B068F421478369000D4C29 /* 4324.png in Resources */,
+				D7B068EC2147774A000D4C29 /* 回形针.png in Resources */,
+				D7B068EA2147774A000D4C29 /* 闪电.png in Resources */,
 				D7B068DA21468AE4000D4C29 /* 3.png in Resources */,
 				D7B068D821468AE4000D4C29 /* 1.png in Resources */,
 				D7B068CE214672D3000D4C29 /* homePage_select@2x.png in Resources */,
+				D7B068EB2147774A000D4C29 /* 购物车.png in Resources */,
 				D7B068D921468AE4000D4C29 /* 2.png in Resources */,
 				D7B068BE2146711F000D4C29 /* README.md in Resources */,
 				D7B067A22146701F000D4C29 /* LaunchScreen.storyboard in Resources */,
+				D7B068F521478369000D4C29 /* 423423432.png in Resources */,
 				D7B0687F2146711F000D4C29 /* BottomBarSource.bundle in Resources */,
+				D7B068E5214775CE000D4C29 /* dfgdfgfd.png in Resources */,
 				D7B0679F2146701F000D4C29 /* Assets.xcassets in Resources */,
 				D7B068CC214672CE000D4C29 /* homePage@2x.png in Resources */,
 				D7B0679D2146701F000D4C29 /* Main.storyboard in Resources */,
@@ -976,6 +1042,7 @@
 				D7B068772146711F000D4C29 /* HJGBaseDataModel.m in Sources */,
 				D7B068942146711F000D4C29 /* UIColor+Hex.m in Sources */,
 				D7B068B32146711F000D4C29 /* UIView+ChangeSize.m in Sources */,
+				D7700BA021479EF3004090F2 /* HJG_DeliverStatusController.m in Sources */,
 				D7B068A52146711F000D4C29 /* NSString+SizeFont.m in Sources */,
 				D7B0688A2146711F000D4C29 /* NSDictionary+Log.m in Sources */,
 				D7B068A72146711F000D4C29 /* UIBarButtonItem+HJGIteam.m in Sources */,
@@ -1006,6 +1073,7 @@
 				D7B0679A2146701F000D4C29 /* ViewController.m in Sources */,
 				D7B068A32146711F000D4C29 /* NSDictionary+HJGDictionary.m in Sources */,
 				D7B068BB2146711F000D4C29 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				D7B068F821478B0C000D4C29 /* HJG_RegsterController.m in Sources */,
 				D7B068992146711F000D4C29 /* UITextView+MaxLength.m in Sources */,
 				D7B068852146711F000D4C29 /* NSArray+Addition.m in Sources */,
 				D7B0689B2146711F000D4C29 /* WPSyncActionSheet.m in Sources */,
@@ -1016,6 +1084,7 @@
 				D7B068842146711F000D4C29 /* CLGeocoder+custom.m in Sources */,
 				D7B068AA2146711F000D4C29 /* UIColor+RandomColor.m in Sources */,
 				D7B068802146711F000D4C29 /* BottomToolbar.m in Sources */,
+				D7700B9D21479EDE004090F2 /* HJGAboutUSController.m in Sources */,
 				D7B068C02146711F000D4C29 /* HJGSaveTool.m in Sources */,
 				D7B068A12146711F000D4C29 /* NSData+Encryption.m in Sources */,
 				D7B0688D2146711F000D4C29 /* NSMutableSet+Addition.m in Sources */,
@@ -1030,6 +1099,7 @@
 				D7B0687E2146711F000D4C29 /* HJGTabBarController.m in Sources */,
 				D7B0689C2146711F000D4C29 /* WPSyncAlertView.m in Sources */,
 				D7B068E021469492000D4C29 /* HJGSchoolModel.m in Sources */,
+				D7B068E3214770D4000D4C29 /* HJG_MineTableViewCell.m in Sources */,
 				D7B068822146711F000D4C29 /* AlertMananger.m in Sources */,
 				D7B068B42146711F000D4C29 /* UIView+LayoutMethods.m in Sources */,
 				D7B0688C2146711F000D4C29 /* NSMutableDictionary+Addition.m in Sources */,
@@ -1043,6 +1113,7 @@
 				D7B068A62146711F000D4C29 /* NSTimer+Blocks.m in Sources */,
 				D7B068922146711F000D4C29 /* UIBarButtonItem+Extension.m in Sources */,
 				D7B068DD21468CCB000D4C29 /* HJG_SchoolTableViewCell.m in Sources */,
+				D7700B9A21479ED0004090F2 /* HJGDeliverController.m in Sources */,
 				D7B068B92146711F000D4C29 /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				D7B068D42146861B000D4C29 /* HJG_HomeTableViewCell.m in Sources */,
 				D7B068912146711F000D4C29 /* NSUserDefaults+NullAbleScalar.m in Sources */,
@@ -1051,6 +1122,7 @@
 				D7B068BC2146711F000D4C29 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				D7B068932146711F000D4C29 /* UIButton+CustomClick.m in Sources */,
 				D7B068792146711F000D4C29 /* HJGBaseView.m in Sources */,
+				D7B068F121478291000D4C29 /* HJG_LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1214,6 +1286,7 @@
 			baseConfigurationReference = 9FFC909F8F505A15F0B2BFCA /* Pods-WangZuan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = WangZuan/WangZuan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R2ZX5R2HKV;
@@ -1232,6 +1305,7 @@
 			baseConfigurationReference = 3D0B2BB4C26153C765D8A4F7 /* Pods-WangZuan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = WangZuan/WangZuan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R2ZX5R2HKV;

@@ -66,7 +66,7 @@
         [theView makeConstraints:^(MASConstraintMaker *make) {
             make.centerY.equalTo(self.lianxiLab);
             make.right.equalTo(self.contentView).offset(-W(15));
-            make.size.equalTo(CGSizeMake(W(100), H(24)));
+            make.size.equalTo(CGSizeMake(W(140), H(24)));
         }];
         _phoneBut = theView;
     }
@@ -142,7 +142,7 @@
     if (!_jiedanBut) {
         UIButton * theView = [[UIButton alloc] init];
         theView.backgroundColor = RGB(255, 199, 73);
-        [theView setTitle:@"举报" forState:0];
+        [theView setTitle:@"接单" forState:0];
         [theView setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         theView.titleLabel.font = [UIFont systemFontOfSize:W(14) weight:UIFontWeightBold];
         theView.layer.cornerRadius = W(3);

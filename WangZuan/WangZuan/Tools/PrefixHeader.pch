@@ -23,7 +23,7 @@
 #import <MJExtension.h>
 #import <YYText.h>
 #import <WRNavigationBar.h>
-
+#import "WPSyncAlertView.h"
 #import "BaseDataConfig.h"
 //工具类
 #import "UIView+ChangeSize.h"
