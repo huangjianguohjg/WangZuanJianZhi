@@ -36,7 +36,7 @@
 #import "HJGSaveTool.h"
 #import "HJGNetManger.h"
 #import <BANetManager.h>
-
+#define Tokken  @"token"
 #import "UIFont+HJGFont.h"
 
 #import "UIColor+AppTheme.h"

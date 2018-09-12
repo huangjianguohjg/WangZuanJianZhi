@@ -12,4 +12,6 @@
 
 @property (nonatomic, strong) SDCycleScrollView *cycleView;
 
+@property (nonatomic, strong) NSMutableArray *modelArr;
+
 @end

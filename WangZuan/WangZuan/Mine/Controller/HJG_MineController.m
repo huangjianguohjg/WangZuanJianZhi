@@ -12,6 +12,7 @@
 #import "HJGAboutUSController.h"
 #import "HJGDeliverController.h"
 #import "HJG_DeliverStatusController.h"
+#import "HJGMyListController.h"
 @interface HJG_MineController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *rootTableView;
@@ -159,8 +160,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     if (indexPath.row == 0) {
-        HJG_LoginController *vc = [[HJG_LoginController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
+        if ([HJGSaveTool objectForKey:Tokken]) {
+            HJGMyListController *vc = [[HJGMyListController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }else{
+    
+            HJG_LoginController *vc = [[HJG_LoginController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        }
     }else if (indexPath.row == 3){
         HJGAboutUSController *vc = [[HJGAboutUSController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];

@@ -11,6 +11,13 @@
 		D7700B9A21479ED0004090F2 /* HJGDeliverController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700B9921479ED0004090F2 /* HJGDeliverController.m */; };
 		D7700B9D21479EDE004090F2 /* HJGAboutUSController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700B9C21479EDE004090F2 /* HJGAboutUSController.m */; };
 		D7700BA021479EF3004090F2 /* HJG_DeliverStatusController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7700B9F21479EF3004090F2 /* HJG_DeliverStatusController.m */; };
+		D78EB5842148C163006F3CFF /* HJGHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78EB5832148C163006F3CFF /* HJGHomeModel.m */; };
+		D78EB5872148E51F006F3CFF /* HJGMyListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78EB5862148E51F006F3CFF /* HJGMyListController.m */; };
+		D78EB58A2148E5B3006F3CFF /* HJG_JieDanTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78EB5892148E5B3006F3CFF /* HJG_JieDanTableViewCell.m */; };
+		D78EB58C2148F071006F3CFF /* leftpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = D78EB58B2148F071006F3CFF /* leftpoint.png */; };
+		D78EB58F2148FB3B006F3CFF /* HJGDeliverCommenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78EB58E2148FB3B006F3CFF /* HJGDeliverCommenTableViewCell.m */; };
+		D78EB5922148FB4E006F3CFF /* HJGDeliverBottomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78EB5912148FB4E006F3CFF /* HJGDeliverBottomTableViewCell.m */; };
+		D78EB5952148FBFB006F3CFF /* HJG_DeliverStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78EB5942148FBFB006F3CFF /* HJG_DeliverStatusTableViewCell.m */; };
 		D7B067972146701F000D4C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B067962146701F000D4C29 /* AppDelegate.m */; };
 		D7B0679A2146701F000D4C29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B067992146701F000D4C29 /* ViewController.m */; };
 		D7B0679D2146701F000D4C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B0679B2146701F000D4C29 /* Main.storyboard */; };
@@ -146,6 +153,19 @@
 		D7700B9C21479EDE004090F2 /* HJGAboutUSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGAboutUSController.m; sourceTree = "<group>"; };
 		D7700B9E21479EF3004090F2 /* HJG_DeliverStatusController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJG_DeliverStatusController.h; sourceTree = "<group>"; };
 		D7700B9F21479EF3004090F2 /* HJG_DeliverStatusController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJG_DeliverStatusController.m; sourceTree = "<group>"; };
+		D78EB5822148C163006F3CFF /* HJGHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGHomeModel.h; sourceTree = "<group>"; };
+		D78EB5832148C163006F3CFF /* HJGHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGHomeModel.m; sourceTree = "<group>"; };
+		D78EB5852148E51F006F3CFF /* HJGMyListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGMyListController.h; sourceTree = "<group>"; };
+		D78EB5862148E51F006F3CFF /* HJGMyListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGMyListController.m; sourceTree = "<group>"; };
+		D78EB5882148E5B3006F3CFF /* HJG_JieDanTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJG_JieDanTableViewCell.h; sourceTree = "<group>"; };
+		D78EB5892148E5B3006F3CFF /* HJG_JieDanTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJG_JieDanTableViewCell.m; sourceTree = "<group>"; };
+		D78EB58B2148F071006F3CFF /* leftpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftpoint.png; sourceTree = "<group>"; };
+		D78EB58D2148FB3B006F3CFF /* HJGDeliverCommenTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGDeliverCommenTableViewCell.h; sourceTree = "<group>"; };
+		D78EB58E2148FB3B006F3CFF /* HJGDeliverCommenTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGDeliverCommenTableViewCell.m; sourceTree = "<group>"; };
+		D78EB5902148FB4E006F3CFF /* HJGDeliverBottomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJGDeliverBottomTableViewCell.h; sourceTree = "<group>"; };
+		D78EB5912148FB4E006F3CFF /* HJGDeliverBottomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGDeliverBottomTableViewCell.m; sourceTree = "<group>"; };
+		D78EB5932148FBFB006F3CFF /* HJG_DeliverStatusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJG_DeliverStatusTableViewCell.h; sourceTree = "<group>"; };
+		D78EB5942148FBFB006F3CFF /* HJG_DeliverStatusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJG_DeliverStatusTableViewCell.m; sourceTree = "<group>"; };
 		D7B067922146701F000D4C29 /* WangZuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangZuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B067952146701F000D4C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7B067962146701F000D4C29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -499,6 +519,7 @@
 		D7B067DC2146711F000D4C29 /* ffff */ = {
 			isa = PBXGroup;
 			children = (
+				D78EB58B2148F071006F3CFF /* leftpoint.png */,
 				D7B067DD2146711F000D4C29 /* Controller */,
 				D7B067E32146711F000D4C29 /* Model */,
 				D7B067E42146711F000D4C29 /* View */,
@@ -678,6 +699,8 @@
 				D7700B9C21479EDE004090F2 /* HJGAboutUSController.m */,
 				D7700B9E21479EF3004090F2 /* HJG_DeliverStatusController.h */,
 				D7700B9F21479EF3004090F2 /* HJG_DeliverStatusController.m */,
+				D78EB5852148E51F006F3CFF /* HJGMyListController.h */,
+				D78EB5862148E51F006F3CFF /* HJGMyListController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -694,6 +717,14 @@
 			children = (
 				D7B068E1214770D4000D4C29 /* HJG_MineTableViewCell.h */,
 				D7B068E2214770D4000D4C29 /* HJG_MineTableViewCell.m */,
+				D78EB5882148E5B3006F3CFF /* HJG_JieDanTableViewCell.h */,
+				D78EB5892148E5B3006F3CFF /* HJG_JieDanTableViewCell.m */,
+				D78EB58D2148FB3B006F3CFF /* HJGDeliverCommenTableViewCell.h */,
+				D78EB58E2148FB3B006F3CFF /* HJGDeliverCommenTableViewCell.m */,
+				D78EB5902148FB4E006F3CFF /* HJGDeliverBottomTableViewCell.h */,
+				D78EB5912148FB4E006F3CFF /* HJGDeliverBottomTableViewCell.m */,
+				D78EB5932148FBFB006F3CFF /* HJG_DeliverStatusTableViewCell.h */,
+				D78EB5942148FBFB006F3CFF /* HJG_DeliverStatusTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -790,6 +821,8 @@
 		D7B0686C2146711F000D4C29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D78EB5822148C163006F3CFF /* HJGHomeModel.h */,
+				D78EB5832148C163006F3CFF /* HJGHomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -956,6 +989,7 @@
 				D7B068D921468AE4000D4C29 /* 2.png in Resources */,
 				D7B068BE2146711F000D4C29 /* README.md in Resources */,
 				D7B067A22146701F000D4C29 /* LaunchScreen.storyboard in Resources */,
+				D78EB58C2148F071006F3CFF /* leftpoint.png in Resources */,
 				D7B068F521478369000D4C29 /* 423423432.png in Resources */,
 				D7B0687F2146711F000D4C29 /* BottomBarSource.bundle in Resources */,
 				D7B068E5214775CE000D4C29 /* dfgdfgfd.png in Resources */,
@@ -1041,6 +1075,7 @@
 				D7B068B82146711F000D4C29 /* WKWebView+JavaScript.m in Sources */,
 				D7B068772146711F000D4C29 /* HJGBaseDataModel.m in Sources */,
 				D7B068942146711F000D4C29 /* UIColor+Hex.m in Sources */,
+				D78EB58F2148FB3B006F3CFF /* HJGDeliverCommenTableViewCell.m in Sources */,
 				D7B068B32146711F000D4C29 /* UIView+ChangeSize.m in Sources */,
 				D7700BA021479EF3004090F2 /* HJG_DeliverStatusController.m in Sources */,
 				D7B068A52146711F000D4C29 /* NSString+SizeFont.m in Sources */,
@@ -1048,6 +1083,7 @@
 				D7B068A72146711F000D4C29 /* UIBarButtonItem+HJGIteam.m in Sources */,
 				D7B068862146711F000D4C29 /* NSAttributedString+Utils.m in Sources */,
 				D7B0689E2146711F000D4C29 /* FlLocalStoreManager.m in Sources */,
+				D78EB5872148E51F006F3CFF /* HJGMyListController.m in Sources */,
 				D7B068BF2146711F000D4C29 /* HJGNetManger.m in Sources */,
 				D7B068882146711F000D4C29 /* NSDate+Extension.m in Sources */,
 				D7B068C7214671A3000D4C29 /* HJG_SchoolController.m in Sources */,
@@ -1080,11 +1116,13 @@
 				D7B068B22146711F000D4C29 /* UIView+Badge.m in Sources */,
 				D7B067A52146701F000D4C29 /* main.m in Sources */,
 				D7B068B02146711F000D4C29 /* UITableView+RegisterCell.m in Sources */,
+				D78EB5842148C163006F3CFF /* HJGHomeModel.m in Sources */,
 				D7B0687D2146711F000D4C29 /* HJGNavgationController.m in Sources */,
 				D7B068842146711F000D4C29 /* CLGeocoder+custom.m in Sources */,
 				D7B068AA2146711F000D4C29 /* UIColor+RandomColor.m in Sources */,
 				D7B068802146711F000D4C29 /* BottomToolbar.m in Sources */,
 				D7700B9D21479EDE004090F2 /* HJGAboutUSController.m in Sources */,
+				D78EB5922148FB4E006F3CFF /* HJGDeliverBottomTableViewCell.m in Sources */,
 				D7B068C02146711F000D4C29 /* HJGSaveTool.m in Sources */,
 				D7B068A12146711F000D4C29 /* NSData+Encryption.m in Sources */,
 				D7B0688D2146711F000D4C29 /* NSMutableSet+Addition.m in Sources */,
@@ -1099,9 +1137,11 @@
 				D7B0687E2146711F000D4C29 /* HJGTabBarController.m in Sources */,
 				D7B0689C2146711F000D4C29 /* WPSyncAlertView.m in Sources */,
 				D7B068E021469492000D4C29 /* HJGSchoolModel.m in Sources */,
+				D78EB5952148FBFB006F3CFF /* HJG_DeliverStatusTableViewCell.m in Sources */,
 				D7B068E3214770D4000D4C29 /* HJG_MineTableViewCell.m in Sources */,
 				D7B068822146711F000D4C29 /* AlertMananger.m in Sources */,
 				D7B068B42146711F000D4C29 /* UIView+LayoutMethods.m in Sources */,
+				D78EB58A2148E5B3006F3CFF /* HJG_JieDanTableViewCell.m in Sources */,
 				D7B0688C2146711F000D4C29 /* NSMutableDictionary+Addition.m in Sources */,
 				D7B068C421467195000D4C29 /* HJG_HomeController.m in Sources */,
 				D7B0687A2146711F000D4C29 /* HJGBaseViewModel.m in Sources */,

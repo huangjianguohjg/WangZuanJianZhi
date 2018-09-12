@@ -17,6 +17,22 @@
     return self;
 }
 
+- (void)setModel:(HJGHomeModel *)model{
+    
+    _model = model;
+    
+    
+    self.lianxiLab.text = [NSString stringWithFormat:@"联系人%@",model.name];
+    
+    [self.phoneBut setTitle:[NSString stringWithFormat:@"TEL:%@",model.phone] forState:0];
+    
+    self.moneyLab.text = [NSString stringWithFormat:@"Y:%@元",model.money];
+    
+    self.contentLab.text  = model.content;
+    
+    
+}
+
 #pragma mark - setupUI
 - (void)setupUI{
     

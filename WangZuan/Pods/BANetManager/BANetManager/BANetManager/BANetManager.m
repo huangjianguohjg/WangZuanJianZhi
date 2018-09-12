@@ -245,8 +245,19 @@ static NSMutableArray *tasks;
     AFHTTPRequestSerializer *scc3 = scc.requestSerializer;
     NSTimeInterval timeoutInterval = BANetManagerShare.timeoutInterval;
     
+    
     NSString *isCache = isNeedCache ? @"开启":@"关闭";
     CGFloat allCacheSize = [BANetManagerCache ba_getAllHttpCacheSize];
+    
+//    isNeedCache = YES;
+//    // 设置自动管理Cookies
+//    scc3.HTTPShouldHandleCookies = YES;
+//    // 如果已有Cookie, 则把你的cookie符上
+//    NSString *cookie = [[NSUserDefaults standardUserDefaults] objectForKey:@"Set-Cookie"];
+//    if (cookie != nil) {
+//        [requestSerialization setValue:cookie forHTTPHeaderField:@"Set-Cookie"];
+//    }
+
     
     if (BANetManagerShare.isOpenLog)
     {

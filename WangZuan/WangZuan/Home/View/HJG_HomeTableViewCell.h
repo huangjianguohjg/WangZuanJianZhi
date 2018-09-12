@@ -7,7 +7,7 @@
 //
 
 #import "HJGBaseTableViewCell.h"
-
+#import "HJGHomeModel.h"
 @interface HJG_HomeTableViewCell : HJGBaseTableViewCell
 
 @property (nonatomic, weak) UILabel *lianxiLab;
@@ -23,4 +23,5 @@
 
 @property (nonatomic, weak) UIButton *jiedanBut;
 
+@property (nonatomic, strong) HJGHomeModel *model;
 @end

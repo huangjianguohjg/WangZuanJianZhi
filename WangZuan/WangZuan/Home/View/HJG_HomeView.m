@@ -9,6 +9,7 @@
 
 #import "HJG_HomeView.h"
 #import "HJG_HomeTableViewCell.h"
+#import "HJGHomeModel.h"
 @interface HJG_HomeView()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *rootTableView;
@@ -48,6 +49,13 @@
     
 }
 
+- (void)setModelArr:(NSMutableArray *)modelArr{
+    
+    _modelArr = modelArr;
+    
+    [self.rootTableView reloadData];
+}
+
 - (UITableView *)rootTableView
 {
     if (!_rootTableView) {
@@ -72,24 +80,69 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 100;
+    return self.modelArr.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     HJG_HomeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[HJG_HomeTableViewCell getCellIdentifier]];
-    
+    cell.model = [self.modelArr safeObjectAtIndex:indexPath.row];
+    [cell.jubaoBut addTarget:self action:@selector(jubaoButClick:) forControlEvents:UIControlEventTouchUpInside];
+    [cell.jiedanBut addTarget:self action:@selector(jiedanButClick:) forControlEvents:UIControlEventTouchUpInside];
     return cell;
     
+}
+
+
+- (void)jubaoButClick:(UIButton *)but{
     
+    HJG_HomeTableViewCell *cell = (HJG_HomeTableViewCell *)but.superview.superview;
+    
+    NSIndexPath *indexP= [self.rootTableView indexPathForCell:cell];
+    HJGHomeModel *model = [self.modelArr safeObjectAtIndex:indexP.row];
+    
+    NSDictionary *dic = @{
+                          @"why":@"内容不正确"
+                          };
+    NSString *url = [NSString stringWithFormat:@"http://api.fewpod.com/api/jobs/jubao/%@?token=%@",model.ID,[HJGSaveTool objectForKey:Tokken]];
+    DLog(@"%@",url);
+    [HJGNetManger postUrl:url paramDic:dic IsNeedCashe:NO responseSuccess:^(id response) {
+        DLog(@"%@",response);
+        if ([((NSString *)response[@"msg"]) containsString:@"举报完成"]) {
+            [SVProgressHUD setMinimumDismissTimeInterval:2.f];
+            [SVProgressHUD showSuccessWithStatus:@"举报完成！！！,我们会认真审核"];
+        }
+    } responseFail:^(NSError *error) {
+        
+    }];
+    
+    
+}
+
+- (void)jiedanButClick:(UIButton *)but{
+    HJG_HomeTableViewCell *cell = (HJG_HomeTableViewCell *)but.superview.superview;
+    
+    NSIndexPath *indexP= [self.rootTableView indexPathForCell:cell];
+    HJGHomeModel *model = [self.modelArr safeObjectAtIndex:indexP.row];
+    
+        NSString *url = [NSString stringWithFormat:@"http://api.fewpod.com/api/jobs/jiedan/%@?token=%@",model.ID,[HJGSaveTool objectForKey:Tokken]];
+     DLog(@"%@",url);
+    [HJGNetManger postUrl:url paramDic:@{} IsNeedCashe:NO responseSuccess:^(id response) {
+        if ([((NSString *)response[@"msg"]) containsString:@"分配给"]) {
+            [SVProgressHUD setMinimumDismissTimeInterval:2.f];
+            [SVProgressHUD showSuccessWithStatus:response[@"msg"]];
+        }
+    } responseFail:^(NSError *error) {
+        
+    }];
     
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    
     return H(120);
 }
+
 
 
 
