@@ -30,11 +30,11 @@
 #import "UILabel+HJGLableFit.h"
 #import "UIImage+Image.h"
 #import "NSData+Encryption.h"
-#import "HJGBaseDataModel.h"
+#import "QMhdjshjdshjshjhjBaseDataModel.h"
 //保护环境梵蒂冈和未婚夫工程广告语故意故意关于预估与要更改关于预告预法院官方要更改硅与个股有固元膏预告预更丰富要义愤填膺翻译通1反弹以反映翻译通番天印蜂屯蚁附一套房体验番天印一幅图沸腾鱼退费用分摊一份题反弹飞艇扶梯蜂屯蚁附体验套房源沸腾鱼他覅fit提费用扶梯沸腾鱼运费提付体态语覅以太坊以太坊一天附图一斧头沸腾鱼if同一页繁体飞艇丰田腾飞发图发图头发太跳头发头发头发发图访谈法发发图发图飞艇
-#import "HJGBaseViewModel.h"
-#import "HJGSaveTool.h"
-#import "HJGNetManger.h"
+#import "QMhdjshjdshjshjhjBaseViewModel.h"
+#import "GHFFGFreyuruehfdeSaveTool.h"
+#import "GHFFGFreyuruehfdeNetManger.h"
 #import <BANetManager.h>
 #define Tokken  @"token"
 #import "UIFont+HJGFont.h"
@@ -57,8 +57,8 @@
 
 
 //全局工具类
-#import "HJGBaseTableViewCell.h"
-#import "HJGBaseView.h"
+#import "QMhdjshjdshjshjhjBaseTableViewCell.h"
+#import "QMhdjshjdshjshjhjBaseView.h"
 
 
 //hjdfgfdwhfgwhhfgewghhgwghfghwghfwe

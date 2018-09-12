@@ -1,5 +1,5 @@
 #import "UITableView+RegisterCell.h"
-#import "HJGBaseTableViewCell.h"
+#import "QMhdjshjdshjshjhjBaseTableViewCell.h"
 @implementation UITableView (RegisterCell)
 - (void)registerClass:(Class)aclass{
     NSString *Identifier = [aclass getCellIdentifier];

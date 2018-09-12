@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "HJGLauchController.h"
+#import "QMhdjshjdshjshjhjLauchController.h"
 #import "BaseNavigationController.h"
-#import "HJGTabBarController.h"
+#import "QMhdjshjdshjshjhjTabBarController.h"
 // 引入JPush功能所需头文件
 #import "JPUSHService.h"
 // iOS10注册APNs所需头文件
@@ -25,8 +25,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self registerJ:launchOptions];
-//    HJGLauchController *vc = [[HJGLauchController alloc]init];
-    HJGTabBarController *tab  = [[HJGTabBarController alloc]init];
+//    QMhdjshjdshjshjhjLauchController *vc = [[QMhdjshjdshjshjhjLauchController alloc]init];
+    QMhdjshjdshjshjhjTabBarController *tab  = [[QMhdjshjdshjshjhjTabBarController alloc]init];
     
     //创建窗口
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
@@ -55,8 +55,8 @@
     }
     [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
     NSString *pushKey= @"";
-    if ([HJGSaveTool objectForKey:@"ok"]) {
-        pushKey= [HJGSaveTool objectForKey:@"ok"];
+    if ([GHFFGFreyuruehfdeSaveTool objectForKey:@"ok"]) {
+        pushKey= [GHFFGFreyuruehfdeSaveTool objectForKey:@"ok"];
     }else{
         pushKey = @"9623f051d7a766ad13aa1fa9";
     }

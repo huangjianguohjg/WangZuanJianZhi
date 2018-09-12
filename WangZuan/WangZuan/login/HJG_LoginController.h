@@ -6,9 +6,9 @@
 //  Copyright © 2018年 Developer. All rights reserved.
 //
 
-#import "HJGBaseController.h"
+#import "QMhdjshjdshjshjhjBaseController.h"
 
-@interface HJG_LoginController : HJGBaseController
+@interface HJG_LoginController : QMhdjshjdshjshjhjBaseController
 
 @property (nonatomic, strong) UIImageView *topImageView;
 

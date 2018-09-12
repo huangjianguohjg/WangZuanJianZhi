@@ -11608,13 +11608,13 @@
                           
                           };
     
-    [HJGNetManger postUrl:@"http://api.fewpod.com/api/login" paramDic:dic IsNeedCashe:NO responseSuccess:^(id response) {
+    [GHFFGFreyuruehfdeNetManger postUrl:@"http://api.fewpod.com/api/login" paramDic:dic IsNeedCashe:NO responseSuccess:^(id response) {
         DLog(@"%@",response);
 
         if ([((NSString *)response[@"msg"]) containsString:@"完成"]) {
             [SVProgressHUD setMinimumDismissTimeInterval:2.f];
             [SVProgressHUD showSuccessWithStatus:@"登录成功!"];
-            [HJGSaveTool setObject:response[@"token"] forKey:Tokken];
+            [GHFFGFreyuruehfdeSaveTool setObject:response[@"token"] forKey:Tokken];
             [self.navigationController popToRootViewControllerAnimated:YES];
         }else{
             [SVProgressHUD setMinimumDismissTimeInterval:2.f];
