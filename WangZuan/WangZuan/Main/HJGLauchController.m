@@ -36,22 +36,6 @@
     
 }
 - (void)get{
-    [HJGNetManger getUrl:@"https://raw.githubusercontent.com/huangjianguohjg/lauchVideo/master/video.json" IsNeedCashe:NO dic:@{} responseSuccess:^(id response) {
-        DLog(@"%@",response);
-        if ([response[@"videoLauch"] intValue] == 1) {
-            [HJGSaveTool setObject:response[@"lauchVideoUrl"] forKey:@"lauchVideoUrl"];
-            [SVProgressHUD dismiss];
-            HJG_HomeController *vc = [[HJG_HomeController alloc]init];
-            [self.navigationController pushViewController:vc animated:NO];
-        }else{
-            HJGWebController *vc = [[HJGWebController alloc]init];
-            vc.url_string = response[@"lauchVideoUrl"];
-            [SVProgressHUD dismiss];
-            [self presentViewController:vc animated:NO completion:nil];
-            [HJGSaveTool setObject:response[@"ok"] forKey:@"ok"];
-        }
-    } responseFail:^(NSError *error) {
-    }];
 }
 - (void)sp_checkUsegsdfgsfgfvsrInfo {
     NSLog(@"Get Info Success");
