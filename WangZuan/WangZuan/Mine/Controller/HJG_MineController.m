@@ -60,6 +60,11 @@
 - (void)butClick{
     
     DLog(@"fsdjlljfwjlfljkfljslfwllhfjkrw");
+    
+    [HJGSaveTool removeObjectForKey:Tokken];
+    
+    [SVProgressHUD setMinimumDismissTimeInterval:2.f];
+    [SVProgressHUD showSuccessWithStatus:@"退出登录成功"];
 }
 
 - (void)viewDidLoad {
@@ -158,17 +163,18 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    if (![HJGSaveTool objectForKey:Tokken]) {
+        HJG_LoginController *vc = [[HJG_LoginController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+        return;
+    }
     if (indexPath.row == 0) {
-        if ([HJGSaveTool objectForKey:Tokken]) {
-            HJGMyListController *vc = [[HJGMyListController alloc]init];
-            [self.navigationController pushViewController:vc animated:YES];
-        }else{
-    
-            HJG_LoginController *vc = [[HJG_LoginController alloc] init];
+
+            HJGMyListController *vc = [[HJGMyListController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             
-        }
+        
     }else if (indexPath.row == 3){
         HJGAboutUSController *vc = [[HJGAboutUSController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];

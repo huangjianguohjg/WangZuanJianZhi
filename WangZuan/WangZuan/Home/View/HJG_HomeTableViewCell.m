@@ -70,6 +70,19 @@
     return _lianxiLab;
 }
 
+- (void)phoneButClick{
+    [WPSyncAlertView alert:@"拨打此单人电话" title:@"按确认是否拨打电话" confirmButtonTitle:@"确认" cancelButtonTitle:@"取消" confirmed:^{
+        NSString *telephoneNumber=self.model.phone;
+        NSMutableString * str=[[NSMutableString alloc] initWithFormat:@"tel:%@",telephoneNumber];
+        UIApplication *application = [UIApplication sharedApplication];
+        NSURL *URL = [NSURL URLWithString:str];
+        [application openURL:URL options:@{} completionHandler:^(BOOL success) {
+            //OpenSuccess=选择 呼叫 为 1  选择 取消 为0
+            NSLog(@"OpenSuccess=%d",success);
+            
+        }];
+    }];
+}
 
 - (UIButton *)phoneBut
 {
@@ -77,6 +90,7 @@
         UIButton * theView = [[UIButton alloc] init];
         [theView setTitle:@"TEL:17878778878" forState:0];
         [theView setTitleColor:RGB(255, 197, 43) forState:0];
+        [theView addTarget:self action:@selector(phoneButClick) forControlEvents:UIControlEventTouchUpInside];
         theView.titleLabel.font = [UIFont systemFontOfSize:W(15) weight:UIFontWeightBold];
         [self.contentView addSubview:theView];
         [theView makeConstraints:^(MASConstraintMaker *make) {

@@ -30,10 +30,10 @@
 {
     if (!_iconView) {
         UIImageView * theView = [[UIImageView alloc] init];
-        theView.backgroundColor = [UIColor redColor];
+        theView.backgroundColor = [UIColor whiteColor];
         [self.contentView addSubview:theView];
         [theView makeConstraints:^(MASConstraintMaker *make) {
-            make.size.equalTo(CGSizeMake(W(20), H(20)));
+            make.size.equalTo(CGSizeMake(W(30), H(30)));
             make.centerY.equalTo(self.contentView);
             make.left.equalTo(self.contentView).offset(W(15));
         }];

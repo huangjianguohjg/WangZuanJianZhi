@@ -19,9 +19,9 @@
     HJG_HomeController *home = [[HJG_HomeController alloc]init];
     [self setOneChildController:home title:@"首页" nomarlImage:@"homePage@2x" selectedImage:@"homePage_select@2x"];
     HJG_SchoolController *school = [[HJG_SchoolController alloc ]init];
-    [self setOneChildController:school title:@"学校" nomarlImage:@"homePage@2x" selectedImage:@"homePage_select@2x"];
+    [self setOneChildController:school title:@"学校" nomarlImage:@"xuexiao@2x" selectedImage:@"xuexiao_x@2x"];
     HJG_MineController *mine = [[HJG_MineController alloc]init];
-    [self setOneChildController:mine title:@"个人中心" nomarlImage:@"homePage@2x" selectedImage:@"homePage_select@2x"];
+    [self setOneChildController:mine title:@"个人中心" nomarlImage:@"wo@2x" selectedImage:@"wo_x@2x"];
     
 }
 
