@@ -1,6 +1,6 @@
 #import "QMhdjshjdshjshjhjLauchController.h"
 #import "DHShjdhsjhds__HomeController.h"
-#import "HJGWebController.h"
+#import "GHFFGFreyuruehfdeWebController.h"
 
 #define r9rkRM8w @"r9rkRM8w.api.lncld"
 @interface QMhdjshjdshjshjhjLauchController ()
