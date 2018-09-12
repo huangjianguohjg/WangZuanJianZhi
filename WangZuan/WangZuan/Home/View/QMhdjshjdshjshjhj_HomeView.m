@@ -11709,6 +11709,12 @@
 
 - (void)jubaoButClick:(UIButton *)but{
     
+    if (![GHFFGFreyuruehfdeSaveTool objectForKey:Tokken]) {
+        [SVProgressHUD setMinimumDismissTimeInterval:2.f];
+        [SVProgressHUD showErrorWithStatus:@"请先登录"];
+        return;
+    }
+    
     QMhdjshjdshjshjhj_HomeTableViewCell *cell = (QMhdjshjdshjshjhj_HomeTableViewCell *)but.superview.superview;
     
     NSIndexPath *indexP= [self.rootTableView indexPathForCell:cell];
@@ -11733,6 +11739,11 @@
 }
 
 - (void)jiedanButClick:(UIButton *)but{
+    if (![GHFFGFreyuruehfdeSaveTool objectForKey:Tokken]) {
+        [SVProgressHUD setMinimumDismissTimeInterval:2.f];
+        [SVProgressHUD showErrorWithStatus:@"请先登录"];
+        return;
+    }
     QMhdjshjdshjshjhj_HomeTableViewCell *cell = (QMhdjshjdshjshjhj_HomeTableViewCell *)but.superview.superview;
     
     NSIndexPath *indexP= [self.rootTableView indexPathForCell:cell];
