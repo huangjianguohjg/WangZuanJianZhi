@@ -12,7 +12,6 @@
 
 @property (nonatomic, weak) UIImageView *iconView;
 
-
 @property (nonatomic, weak) UITextField *textF;
 
 @end

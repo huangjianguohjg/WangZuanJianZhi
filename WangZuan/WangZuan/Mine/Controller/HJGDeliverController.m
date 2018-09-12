@@ -121,7 +121,7 @@
                           @"content":self.cell4.textF.text,
                           @"money":self.cell2.textF.text,
 //                          @"name":self.cell1.textF.text,
-                          @"name":@"self.cell1.textF.text",
+                          @"name":self.cell1.textF.text,
                           @"phone":self.cell3.textF.text
                           
                           };

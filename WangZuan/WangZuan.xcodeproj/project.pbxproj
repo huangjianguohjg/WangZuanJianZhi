@@ -182,6 +182,7 @@
 		D78EB59F21490EB8006F3CFF /* xuexiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xuexiao@2x.png"; sourceTree = "<group>"; };
 		D78EB5A021490EB8006F3CFF /* wo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo@2x.png"; sourceTree = "<group>"; };
 		D78EB5A121490EB8006F3CFF /* wo_x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo_x@2x.png"; sourceTree = "<group>"; };
+		D78EB5A6214924F8006F3CFF /* WangZuan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WangZuan.entitlements; sourceTree = "<group>"; };
 		D7B067922146701F000D4C29 /* WangZuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WangZuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B067952146701F000D4C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7B067962146701F000D4C29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -349,7 +350,6 @@
 		D7B068722146711F000D4C29 /* HJGSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJGSaveTool.h; sourceTree = "<group>"; };
 		D7B068732146711F000D4C29 /* HJGSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJGSaveTool.m; sourceTree = "<group>"; };
 		D7B068742146711F000D4C29 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		D7B068C12146713F000D4C29 /* WangZuan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WangZuan.entitlements; sourceTree = "<group>"; };
 		D7B068C221467195000D4C29 /* HJG_HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJG_HomeController.h; sourceTree = "<group>"; };
 		D7B068C321467195000D4C29 /* HJG_HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJG_HomeController.m; sourceTree = "<group>"; };
 		D7B068C5214671A3000D4C29 /* HJG_SchoolController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJG_SchoolController.h; sourceTree = "<group>"; };
@@ -452,6 +452,7 @@
 		D7B067942146701F000D4C29 /* WangZuan */ = {
 			isa = PBXGroup;
 			children = (
+				D78EB5A6214924F8006F3CFF /* WangZuan.entitlements */,
 				D7B068F221478369000D4C29 /* 4324.png */,
 				D7B068F321478369000D4C29 /* 423423432.png */,
 				D7B068EE21478279000D4C29 /* login */,
@@ -469,7 +470,6 @@
 				D78EB59F21490EB8006F3CFF /* xuexiao@2x.png */,
 				D7B068CD214672D3000D4C29 /* homePage_select@2x.png */,
 				D7B068CB214672CE000D4C29 /* homePage@2x.png */,
-				D7B068C12146713F000D4C29 /* WangZuan.entitlements */,
 				D7B067E52146711F000D4C29 /* Catercory */,
 				D7B067DC2146711F000D4C29 /* ffff */,
 				D7B0686A2146711F000D4C29 /* Home */,
@@ -1360,14 +1360,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = WangZuan/WangZuan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2ZX5R2HKV;
+				DEVELOPMENT_TEAM = PCFYTJ3GY7;
 				GCC_PREFIX_HEADER = /Users/dev/WangZuanJianZhi/WangZuan/WangZuan/Tools/PrefixHeader.pch;
 				INFOPLIST_FILE = WangZuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = hhhhhh.WangZuan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaowangzuanyiyi.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1379,14 +1381,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = WangZuan/WangZuan.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2ZX5R2HKV;
+				DEVELOPMENT_TEAM = PCFYTJ3GY7;
 				GCC_PREFIX_HEADER = /Users/dev/WangZuanJianZhi/WangZuan/WangZuan/Tools/PrefixHeader.pch;
 				INFOPLIST_FILE = WangZuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = hhhhhh.WangZuan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaowangzuanyiyi.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

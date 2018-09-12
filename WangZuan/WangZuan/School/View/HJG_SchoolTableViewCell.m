@@ -64,7 +64,7 @@
 {
     if (!_picView) {
         UIImageView * theView = [[UIImageView alloc] init];
-        theView.backgroundColor= [UIColor redColor];
+        theView.backgroundColor= [UIColor whiteColor];
         
         [self.contentView addSubview:theView];
         [theView makeConstraints:^(MASConstraintMaker *make) {
@@ -86,11 +86,11 @@
         theView.numberOfLines = 0;
         theView.textAlignment = NSTextAlignmentLeft;
         theView.textColor = [UIColor darkGrayColor];
-        theView.font = [UIFont systemFontOfSize:W(14)];
+        theView.font = [UIFont systemFontOfSize:W(15)];
         [self.contentView addSubview:theView];
         [theView makeConstraints:^(MASConstraintMaker *make) {
             make.left.right.equalTo(self.picView);
-            make.top.equalTo(self.picView.bottom).offset(H(12));
+            make.top.equalTo(self.picView.bottom).offset(H(5));
             make.bottom.equalTo(self.contentView).offset(-H(15));
         }];
         _contentLab = theView;

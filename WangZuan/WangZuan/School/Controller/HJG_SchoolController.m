@@ -89,14 +89,12 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    return H(500);
+    return H(530);
 }
 
 
 - (void)getdata{
     
-    //https://raw.githubusercontent.com/huangjianguohjg/json/master/ewew.json
-
     [HJGNetManger getUrl:@"https://raw.githubusercontent.com/huangjianguohjg/json/master/ewew.json" IsNeedCashe:NO dic:@{} responseSuccess:^(id response) {
         DLog(@"%@",response);
         [response[@"d"] enumerateObjectsUsingBlock:^(NSDictionary * obj, NSUInteger idx, BOOL * _Nonnull stop) {

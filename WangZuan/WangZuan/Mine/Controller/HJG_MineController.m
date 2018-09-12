@@ -61,6 +61,12 @@
     
     DLog(@"fsdjlljfwjlfljkfljslfwllhfjkrw");
     
+    if (![HJGSaveTool objectForKey:Tokken]) {
+        [SVProgressHUD setMinimumDismissTimeInterval:2.f];
+        [SVProgressHUD showErrorWithStatus:@"你当前处于未登录状态"];
+        return;
+    }
+    
     [HJGSaveTool removeObjectForKey:Tokken];
     
     [SVProgressHUD setMinimumDismissTimeInterval:2.f];
@@ -158,7 +164,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     
-    return H(200);
+    return H(150);
 }
 
 

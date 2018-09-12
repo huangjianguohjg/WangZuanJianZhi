@@ -96,7 +96,7 @@
         [theView makeConstraints:^(MASConstraintMaker *make) {
             make.centerY.equalTo(self.lianxiLab);
             make.right.equalTo(self.contentView).offset(-W(15));
-            make.size.equalTo(CGSizeMake(W(140), H(24)));
+            make.size.equalTo(CGSizeMake(W(170), H(24)));
         }];
         _phoneBut = theView;
     }
